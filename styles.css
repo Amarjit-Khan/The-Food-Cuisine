@@ -1,0 +1,101 @@
+* {
+    margin: 0%;
+}
+
+body {
+    height: 100vh;
+}
+
+.back1 {
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    /* animation: 5s slidy infinite; */
+}
+
+li {
+    float: left;
+    margin: 15px 26px;
+}
+
+.ul_class {
+    list-style: none;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 80px;
+    background-color: #00000000;
+    position: fixed;
+    top: 22px;
+    z-index: 2;
+}
+
+.navlinks {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mea Culpa', cursive;
+    font-size: 39px;
+}
+
+.navlinks:hover {
+    color: wheat;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+}
+
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #832e03;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.container {
+    color: white;
+    top: 263px;
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 617px;
+    margin-left: 35px;
+    height: 315px;
+}
+
+.textlinks {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mea Culpa', cursive;
+    font-size: 39px;
+}
+
+.textlinks:hover {
+    color: wheat;
+}
+
+.text {
+    color: #e2b22b;
+    font-size: 30px;
+    font-weight: 500;
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Mea Culpa', cursive; */
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mea Culpa', cursive;
+    font-family: 'Oooh Baby', cursive;
+}
